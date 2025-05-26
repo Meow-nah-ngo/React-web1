@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Iansui&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mochiy+Pop+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .footer {
-  background-color: #fafafa;
-  padding: 0;
-  text-align: center;
+  background-color: #f2cccc;
+  padding: 20px 100px;
+  text-align: left;
   font-family: 'Poppins', sans-serif;
   color: #333;
+}
+
+.footer h1 {
+  font-size: small;
+  font-weight: 400;
+
+}
+.footer p, address {
+  padding: 30 0px;
+  font-size: small;
+  font-weight: 400;
 }
