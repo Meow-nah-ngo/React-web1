@@ -5,7 +5,7 @@ function Product() {
                 <h1>product</h1>
                 <h2>Product & Service</h2>
             </div>
-            <div className="card">
+            <div className="product-card">
                 
             </div>
         </div>
