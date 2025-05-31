@@ -1,6 +1,6 @@
-function ProductCard() {
+function SolutionCard() {
     return(
         <div></div>
     )
 }
-export default ProductCard
+export default SolutionCard

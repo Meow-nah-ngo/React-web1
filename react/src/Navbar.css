@@ -2,7 +2,6 @@
 * {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
 }
 
 .navbar {
@@ -10,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 20px;
     gap: 1.6rem;
     padding: 0 1.6rem;
 }
@@ -31,7 +31,7 @@
 .navbar li::before {
     content: "";
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     background-color: red;
     width: 90%;
