@@ -2,8 +2,8 @@ function Profile() {
     return(
         <div>
             <div className="topic">
-                <h1>profile</h1>
-                <h2>We are more than Digital mech Agency</h2>
+                <h1 className="text-xs">profile</h1>
+                <h2 className="text-4xl font-regular my-4">We are more than Digital mech Agency</h2>
             </div>
             <div className="info">
                 <img src="" alt="" />

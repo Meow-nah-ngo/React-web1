@@ -6,8 +6,8 @@ function Product() {
     return(
         <div>
             <div className="topic">
-                <h1>product</h1>
-                <h2>Product & Service</h2>
+                <h1 className="text-xs">product</h1>
+                <h2 className="text-4xl font-regular my-4">Product & Service</h2>
             </div>
 
             <div className="ProductCard-display">

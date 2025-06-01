@@ -2,11 +2,11 @@ function Solution() {
     return(
         <div>
             <div className="topic">
-                <h1>solution</h1>
-                <ul>
-                    <h2>Our Solution built your</h2>
-                    <h2>DREAMS</h2>
-                </ul>
+                <h1 className="text-xs ">solution</h1>
+                <h2 className="text-4xl font-regular my-4">
+                    Our Solution built your {""}
+                    <span className="font-semibold">DREAMS</span>
+                </h2>
             </div>
             <div className="solution-card">
 
