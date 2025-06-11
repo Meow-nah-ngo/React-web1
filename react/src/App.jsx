@@ -10,7 +10,19 @@ function App() {
           alt="" 
           className="absolute inset-0 w-full object-cover z-0 blur-sm"
           />
+          
+      <div className="absolute inset-0 flex justify-center items-center">
+        <div className="w-72 h-72 overflow-hidden rounded-4xl border-none shadow-lg relative">
+          <img
+            src={bgImg}
+            alt=""
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+        </div>
+      </div>
+
         <h1 className='text-9xl text-end relative z-10'>zaan</h1>
+        
       </div>
 
       <div className="relative z-10">
