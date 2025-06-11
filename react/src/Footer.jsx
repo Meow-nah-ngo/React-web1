@@ -1,17 +1,7 @@
 function Footer() {
   return (
-    <footer className="footer">
-      <h1>contact us</h1>
-        <p className="address">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, iste aspernatur
-          temporibus rem cupiditate veniam laborum unde praesentium odit, recusandae id
-          molestias impedit voluptas sit amet delectus eum dolorem fuga.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus soluta quis
-          voluptas, suscipit iste consectetur minima esse praesentium, quisquam facere
-          molestiae odit, exercitationem sequi. Natus pariatur voluptas in ab delectus!
-        </p>
+    <footer className="mt-12 text-center text-gray-500 text-sm">
+      &copy; {new Date().getFullYear()} MechatronicTH. All rights reserved.
     </footer>
   )
 }

@@ -1,17 +1,28 @@
-import Navbar from './Navbar.jsx'
+import bgImg from "./assets/2.gif"
 
 function App() {
   return (
     <div>
-      <h1>zaan</h1>
-      <img src="" alt="" />
-      <h2>Quote</h2>
-      <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dicta. Eos reiciendis cum aut recusandae, dicta magnam dignissimos ratione aspernatur facere sunt suscipit temporibus. Optio deleniti magnam quasi quia nesciunt.</h3>
-      <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore earum tempora nulla atque repellat! Error quam vitae accusamus dolorum, esse illo autem fugit vel ex iure voluptate minima, omnis architecto.</h3>
-      <h4 className='poem-syntax'>"</h4>
-      <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio assumenda illum quis sed animi dolores exercitationem voluptatem quibusdam iusto omnis, quod neque repellat totam molestias, deserunt atque architecto. Ullam, in!</h4>
-      <h5>Name -CEO</h5>
-    </div>
+      <div className='flex justify-between items-center'>
+        <h2 className='text-sm'>Quote</h2>
+        <img 
+          src= {bgImg} 
+          alt="" 
+          className="absolute inset-0 w-full object-cover z-0 blur-sm"
+          />
+        <h1 className='text-9xl text-end relative z-10'>zaan</h1>
+      </div>
+
+      <div className="relative z-10">
+        <p className="items-end text-right">
+          <span className="text-6xl">"</span>
+          <p class="text-xl mr-2">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit, malesuada aliquet ut diam etiam faucibus, sed luctus cum
+          </p>
+          <p className="py-3">Name -CEO</p>
+        </p>
+      </div>
+    </div> 
   )
 
 }
