@@ -10,7 +10,7 @@ import Product from './Product.jsx'
 import Solution from './Solution.jsx'
 import ProductCard from './component/ProductCard.jsx'
 import Contact from './Contact.jsx'
-
+import './App.css'
 
 
 createRoot(document.getElementById('root')).render(

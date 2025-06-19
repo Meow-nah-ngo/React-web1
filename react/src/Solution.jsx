@@ -8,9 +8,10 @@ function Solution() {
                     <span className="font-semibold">DREAMS</span>
                 </h2>
             </div>
-            <div className="solution-card">
-
-            </div>
+            <div className="solution-card"> </div>
+            <SolutionCard>
+                <p className="text-xl font-bold mb-2">sdaasd</p>
+            </SolutionCard>
         </div>
     )
 }
